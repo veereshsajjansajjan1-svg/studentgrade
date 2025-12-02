@@ -1,9 +1,7 @@
-# Student Grade Evaluation Program
 
-# Accept marks of 5 subjects
 marks = []
 for i in range(1, 6):
-    score = float(input(f"Enter marks for subject {i}: "))
+    score = float(f"Enter marks for subject {i}: "))
     marks.append(score)
 
 # Calculate average
