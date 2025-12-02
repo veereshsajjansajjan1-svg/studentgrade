@@ -1,7 +1,7 @@
 
 marks = []
 for i in range(1, 6):
-    score = float(f"Enter marks for subject {i}: "))
+    score = float(f"Enter marks for subject {i}: ")
     marks.append(score)
 
 # Calculate average
