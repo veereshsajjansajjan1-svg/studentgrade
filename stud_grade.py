@@ -1,14 +1,11 @@
 
-marks = []
-for i in range(1, 6):
-    score = float(f"Enter marks for subject {i}: ")
-    marks.append(score)
 
-# Calculate average
+marks = [80, 75, 90, 60, 85]   # fixed sample marks
+
 average = sum(marks) / 5
-print("\nAverage Marks:", average)
 
-# Determine grade
+print("Average Marks:", average)
+
 if average >= 90:
     grade = "A"
 elif average >= 75:
